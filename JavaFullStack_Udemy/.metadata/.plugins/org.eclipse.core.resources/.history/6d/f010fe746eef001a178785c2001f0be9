@@ -1,0 +1,68 @@
+package operators.examples;
+
+public class DecisionMaking {
+
+	public static void main(String[] args) {
+		
+		int x =5;
+		
+		/* - == Opeator
+		if(x==5) {
+			System.out.println("X value is: " +x);
+		}
+		else {
+			System.out.println("Value is different");
+		}
+		*/
+		
+		/* - != Opeator
+		if(x!=5) {
+			System.out.println("Value is different"); 
+		}
+		else {
+			System.out.println("X value is: " +x);
+		}
+		*/
+		
+		/* -- < and <=
+		 
+		if(4 < x) {
+			System.out.println(true); 
+		}
+		else {
+			System.out.println(false);
+		}
+		 */
+		
+		//-- > and >=
+		 
+		if(9 > x) {
+			System.out.println(true); 
+		}
+		else {
+			System.out.println(false);
+		}
+
+		boolean a = true;
+		boolean b = false;
+		
+		//&& - if all the operands are true than only over all operation is true
+		if (a && b) {
+			System.out.println("Condistion is TRUE");
+		}
+		else {
+			System.out.println("Condistion is FALSE");
+		}
+
+		//|| - if any one the operand is true than  over all operation is true
+		if (a || a) {
+			System.out.println("Condistion is TRUE");
+		}
+		else {
+			System.out.println("Condistion is FALSE");
+		}
+
+
+	}
+
+}

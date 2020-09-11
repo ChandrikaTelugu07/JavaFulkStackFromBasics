@@ -1,0 +1,25 @@
+package s6p01_flowControl.Example;
+
+public class SwitchCase3 {
+
+	public static void main(String[] args) {
+	
+		String s = "Chandrika";// case sensitive
+		
+		switch(s) {
+		case "Chandrika":
+				System.out.println("The value is A");
+				break;
+		case "Abdul":
+				System.out.println("The value is B");
+				break;
+		case "Team":
+				System.out.println("The value is C");
+				break;
+		default:
+				System.out.println("The value is other han a,b,c");
+				break;
+		}
+	}
+
+}

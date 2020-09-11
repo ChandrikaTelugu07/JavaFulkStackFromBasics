@@ -1,0 +1,13 @@
+package s6p01_flowControl.Example;
+
+public class ForLoop4 {
+	public static void main(String[] args) {
+		
+	   
+	   //infinite loop
+	   for (; ;) {
+		   System.out.println("test");
+	   }
+	   
+	}
+}

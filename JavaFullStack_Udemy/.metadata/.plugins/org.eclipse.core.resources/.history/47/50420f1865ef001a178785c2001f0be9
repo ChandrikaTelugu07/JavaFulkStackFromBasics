@@ -1,0 +1,31 @@
+package com.string.datatype;
+
+public class TypeCasting {
+
+	public static void main(String[] args) {
+		// Type casting - coversion of one data type to another
+		
+		//implicit type casting(widening) - automatic type casting
+		short x =5;
+		int y =x;
+		System.out.println(y);
+		
+		float v1 = 10.0f;
+		double v2 = v1;
+		System.out.println(v2);
+		
+		//explicit type casting (narrowing)
+		int a =10;
+		short b = (short)a; // as we are converting to short
+		System.out.println(b);
+		
+		double c = 10.0;
+		float d = (float) v1;
+		System.out.println(v2);
+		
+		
+		
+
+	}
+
+}

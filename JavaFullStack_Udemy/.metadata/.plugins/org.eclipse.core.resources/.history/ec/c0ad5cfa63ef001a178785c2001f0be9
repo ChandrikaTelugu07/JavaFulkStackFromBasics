@@ -1,0 +1,15 @@
+package com.string.datatype;
+
+public class TypeCasting {
+
+	public static void main(String[] args) {
+		// Type casting - coversion of one data type to another
+		
+		//implicit type casting
+		short x =5;
+		int y =x;
+		System.out.println(y);
+
+	}
+
+}

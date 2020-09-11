@@ -1,0 +1,25 @@
+package s6p01_flowControl.Example;
+
+public class SwitchCase2 {
+
+	public static void main(String[] args) {
+		
+		float x =1.0F;
+		
+		switch(x) {
+		case 1:
+				System.out.println("The value of x is 1");
+				break;
+		case 2:
+				System.out.println("The value of x is 2");
+				break;
+		case 3:
+				System.out.println("The value of x is 3");
+				break;
+		default:
+				System.out.println("The value of x is greater 3");
+				break;
+		}
+	}
+
+}

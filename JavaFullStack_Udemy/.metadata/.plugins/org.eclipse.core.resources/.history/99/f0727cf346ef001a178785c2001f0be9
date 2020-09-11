@@ -1,0 +1,25 @@
+
+public class DataTypeExample {
+
+	public static void main(String[] args) {
+		
+		/*
+		int value1=10, value2 = 20; 
+		int value3 = (value2*value2) - value1;
+		short,long,byte
+		float value =9f;
+		double=9d;
+		System.out.println(value);
+		*/
+		
+		/*percentage
+		int marker = 512;
+		double percentage = marker * 0.46f; // 46% percentage of marker
+		System.out.println("46% of " +marker + " is " + percentage);
+		*/
+		
+		
+
+	}
+
+}

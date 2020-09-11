@@ -1,0 +1,14 @@
+
+public class DataTypeExample {
+
+	public static void main(String[] args) {
+		//int value1=10, value2 = 20; 
+		//int value3 = (value2*value2) - value1;
+		//short,long,byte
+		float value =9f;
+		//double=9d;
+		System.out.println(value);
+
+	}
+
+}

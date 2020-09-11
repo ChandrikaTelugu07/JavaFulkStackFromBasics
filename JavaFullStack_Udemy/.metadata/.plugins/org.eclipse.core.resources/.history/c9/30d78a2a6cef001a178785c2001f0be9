@@ -1,0 +1,15 @@
+package arthematicoperators.examples;
+
+public class DecisionMaking {
+
+	public static void main(String[] args) {
+		int x =7;
+		
+		if(x==5) {
+			System.out.println("X value is: " +x);
+		}
+		System.out.println("Value is different");
+
+	}
+
+}

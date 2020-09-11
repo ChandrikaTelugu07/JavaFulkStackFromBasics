@@ -1,0 +1,11 @@
+package com.string.datatype;
+
+public class StringExample {
+
+	public static void main(String[] args) {
+		String name = "Chandrika \u00BB";
+		System.out.println(name);
+
+	}
+
+}

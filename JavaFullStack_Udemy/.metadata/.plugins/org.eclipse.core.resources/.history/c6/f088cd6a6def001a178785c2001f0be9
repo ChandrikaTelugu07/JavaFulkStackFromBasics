@@ -1,0 +1,40 @@
+package operators.examples;
+
+public class DecisionMaking {
+
+	public static void main(String[] args) {
+		
+		int x =5;
+		
+		/* - == Opeator
+		if(x==5) {
+			System.out.println("X value is: " +x);
+		}
+		else {
+			System.out.println("Value is different");
+		}
+		*/
+		
+		/* - != Opeator
+		if(x!=5) {
+			System.out.println("Value is different"); 
+		}
+		else {
+			System.out.println("X value is: " +x);
+		}
+		*/
+		
+		/* -- < 
+		 * 
+		if(4 < x) {
+			System.out.println(true); 
+		}
+		else {
+			System.out.println(false);
+		}
+		 */
+
+
+	}
+
+}
