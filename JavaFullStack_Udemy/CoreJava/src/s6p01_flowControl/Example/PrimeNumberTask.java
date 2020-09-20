@@ -4,7 +4,7 @@ public class PrimeNumberTask {
 
 	public static void main(String[] args) {
 		
-		int flag =0;
+		int flag = 0;
 		int isPrime = 11;
 		int m = isPrime/2;
 		if(isPrime==0 || isPrime ==1) {
