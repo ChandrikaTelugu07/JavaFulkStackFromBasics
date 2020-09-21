@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.math.BigDecimal"/>
+<fullyQualifiedTypeName name="com.example.vehicles.Bike"/>
+<fullyQualifiedTypeName name="com.example.vehicles.Car"/>
+<fullyQualifiedTypeName name="com.example.vehicles.Truck"/>
+<fullyQualifiedTypeName name="com.example.parent.Vehicle"/>
+<fullyQualifiedTypeName name="com.task.Animal.Animal"/>
+<fullyQualifiedTypeName name="com.task.childs.Birds"/>
+<fullyQualifiedTypeName name="com.task.childs.Fish"/>
+<fullyQualifiedTypeName name="com.task.childs.Reptile"/>
+<fullyQualifiedTypeName name="animal.reptile.Crocodile"/>
+<fullyQualifiedTypeName name="animal.fish.Eel"/>
+<fullyQualifiedTypeName name="animal.birds.Eagle"/>
 </qualifiedTypeNameHistroy>
