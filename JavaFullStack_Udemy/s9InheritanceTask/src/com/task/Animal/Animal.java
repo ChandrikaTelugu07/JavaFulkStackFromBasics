@@ -16,8 +16,16 @@ public class Animal {
 		animalType = "Not Speecified";
 		bloodType = "Not Known";
 	}
+
+
+
 	
+	public String showInfo() {
+		return "Animal [height=" + height + ", weight=" + weight + ", animalType=" + animalType + ", bloodType="
+				+ bloodType + "]";
+	}
 	
+	/*
 	public Animal(double height, double weight, String animalType, String bloodType) {
 		
 		this.height = height;
@@ -40,16 +48,9 @@ public class Animal {
 		return bloodType;
 	}
 
-
-	@Override
-	public String toString() {
-		return "Animal [getHeight()=" + getHeight() + ", getWeight()=" + getWeight() + ", getAnimalType()="
-				+ getAnimalType() + ", getBloodType()=" + getBloodType() + "]";
-	}
+*/
 	
-	public String showInfo() {
-		return toString();
-	}
+
 	
 
 }

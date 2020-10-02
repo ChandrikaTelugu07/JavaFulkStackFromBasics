@@ -18,6 +18,13 @@ public class Reptile extends Animal{
 		backBone = "yes";
 		softShelledEggs = "soft";
 	}
+
+
+	public String showInfo() {
+		return "Reptile [drySkin=" + drySkin + ", backBone=" + backBone + ", softShelledEggs=" + softShelledEggs
+				+ ", height=" + height + ", weight=" + weight + ", animalType=" + animalType + ", bloodType="
+				+ bloodType + "]";
+	}
 	
 	/*
 	public Reptile(double height, double weight, String animalType, String bloodType,String drySkin, String backBone, String softShelledEggs) {
@@ -40,11 +47,6 @@ public class Reptile extends Animal{
 
 
 	*/
-	public String showInfo() {
-		return "Reptile [drySkin=" + drySkin + ", backBone=" + backBone + ", softShelledEggs=" + softShelledEggs
-				+ ", getHeight()=" + getHeight() + ", getWeight()=" + getWeight() + ", getAnimalType()="
-				+ getAnimalType() + ", getBloodType()=" + getBloodType() + ", toString()=" + super.toString() + "]";
-	}
-  
+
 	
 }

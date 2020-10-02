@@ -9,13 +9,11 @@ public class Eel extends Fish{
 		this.releaseElectricCharge = "Releases ElectricCharge";
 	}
 
-	
 	public String showInfo() {
-		return "Eel [releaseElectricCharge=" + releaseElectricCharge + ", height=" + height + ", weight=" + weight
-				+ ", animalType=" + animalType + ", bloodType=" + bloodType + "]";
+		return "Eel [releaseElectricCharge=" + releaseElectricCharge + ", liveInWater=" + liveInWater + ", hasGills="
+				+ hasGills + ", height=" + height + ", weight=" + weight + ", animalType=" + animalType + ", bloodType="
+				+ bloodType + "]";
 	}
+
 	
-	
-	
-	//showoff()
 }

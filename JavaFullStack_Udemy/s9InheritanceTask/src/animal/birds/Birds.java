@@ -17,29 +17,15 @@ public class Birds extends Animal{
 		canFly = "Yes";
 		
 	}
+
+
 	
+	public String showInfo() {
+		return "Birds [animalsWithfeathers=" + animalsWithfeathers + ", canFly=" + canFly + ", height=" + height
+				+ ", weight=" + weight + ", animalType=" + animalType + ", bloodType=" + bloodType + "]";
+	}
 	
-	public Birds(double height, double weight, String animalType, String bloodType,String animalsWithfeathers, String canFly) {
-		super(height,weight,animalType,bloodType);
-		this.animalsWithfeathers = animalsWithfeathers;
-		this.canFly = canFly;
-	}
 
-
-	public String getAnimalsWithfeathers() {
-		return animalsWithfeathers;
-	}
-	public String getCanFly() {
-		return canFly;
-	}
-
-
-	@Override
-	public String toString() {
-		return "Birds [getAnimalsWithfeathers()=" + getAnimalsWithfeathers() + ", getCanFly()=" + getCanFly()
-				+ ", getHeight()=" + getHeight() + ", getWeight()=" + getWeight() + ", getAnimalType()="
-				+ getAnimalType() + ", getBloodType()=" + getBloodType() + "]";
-	}
 	
 	
 }

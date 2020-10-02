@@ -4,8 +4,8 @@ import com.task.Animal.Animal;
 
 public class Fish extends Animal{
 
-	private String liveInWater;
-	private String hasGills;
+	protected String liveInWater;
+	protected String hasGills;
 	
 	
 	public Fish() {
@@ -14,10 +14,12 @@ public class Fish extends Animal{
 		hasGills = "Yes";
 	}
 	
+	
 	public String showInfo() {
 		return "Fish [liveInWater=" + liveInWater + ", hasGills=" + hasGills + ", height=" + height + ", weight="
 				+ weight + ", animalType=" + animalType + ", bloodType=" + bloodType + "]";
 	}
+
 	
 	/*
 	public Fish(double height, double weight, String animalType, String bloodType,String liveInWater, String hasGills) {

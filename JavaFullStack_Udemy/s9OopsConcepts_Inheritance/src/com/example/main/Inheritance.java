@@ -20,7 +20,7 @@ public class Inheritance {
 		
 		/* will execute run() method in bike
 		
-		Vehicle ve = new Truck();
+		Vehicle ve = new Bike();
 		ve.run();*/
 		Bike bike = new Bike("diesel",2,4,40,"LED","long");
 		
